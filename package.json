@@ -2,10 +2,10 @@
 	"name": "svelte-kit-template",
 	"version": "0.0.1",
 	"scripts": {
-		"dev": "svelte-kit dev",
+		"dev": "svelte-kit dev --post 3000",
 		"build": "svelte-kit build",
 		"package": "svelte-kit package",
-		"preview": "svelte-kit preview",
+		"preview": "svelte-kit preview --port 3000 --host",
 		"prepare": "svelte-kit sync",
 		"test": "vitest run",
 		"test:watch": "vitest",
