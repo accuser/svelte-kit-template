@@ -1,12 +1,32 @@
 {
 	"name": "svelte-kit-template",
 	"version": "0.0.1",
+	"description": "SvelteKit tempalte",
+	"keywords": [
+		"portable text",
+		"sanity",
+		"svelte",
+		"sveltekit",
+		"tailwindcss"
+	],
+	"homepage": "https://github.com/accuser/svelte-kit-template/README.md",
+  "bugs": {
+    "url": "https://github.com/accuser/svelte-kit-template/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Matthew Gibbons",
+    "url": "https://github.com/accuser"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/accuser/svelte-kit-template.git"
+  },
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
 		"package": "svelte-kit package",
 		"preview": "vite preview",
-		"prepare": "svelte-kit sync",
 		"test": "vitest run",
 		"test:watch": "vitest",
 		"check": "svelte-check --tsconfig ./tsconfig.json",
