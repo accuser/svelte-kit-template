@@ -10,18 +10,18 @@
 		"tailwindcss"
 	],
 	"homepage": "https://github.com/accuser/svelte-kit-template/README.md",
-  "bugs": {
-    "url": "https://github.com/accuser/svelte-kit-template/issues"
-  },
-  "license": "MIT",
-  "author": {
-    "name": "Matthew Gibbons",
-    "url": "https://github.com/accuser"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/accuser/svelte-kit-template.git"
-  },
+	"bugs": {
+		"url": "https://github.com/accuser/svelte-kit-template/issues"
+	},
+	"license": "MIT",
+	"author": {
+		"name": "Matthew Gibbons",
+		"url": "https://github.com/accuser"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/accuser/svelte-kit-template.git"
+	},
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
@@ -57,7 +57,6 @@
 		"postcss": "^8.4.14",
 		"postcss-nesting": "^10.1.10",
 		"prettier": "^2.7.1",
-		"prettier-plugin-svelte": "^2.7.0",
 		"prettier-plugin-tailwindcss": "^0.1.13",
 		"svelte": "^3.49.0",
 		"svelte-check": "^2.8.0",
