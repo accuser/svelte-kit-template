@@ -4,7 +4,13 @@
 declare namespace App {
 	// interface Locals {}
 	// interface Platform {}
-	// interface PrivateEnv {}
+
+	interface PrivateEnv {
+		SANITY_DATASET: string;
+		SANITY_PROJECT_ID: string;
+		SANITY_TOKEN: string;
+	}
+
 	// interface PublicEnv {}
 	// interface Session {}
 	// interface Stuff {}
