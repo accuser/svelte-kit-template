@@ -1,4 +1,4 @@
 import { sequence } from '@sveltejs/kit/hooks';
-import log_request from './log_request';
+import logRequest from './log-request';
 
-export const handle = sequence(log_request);
+export const handle = sequence(logRequest);
