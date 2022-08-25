@@ -6,12 +6,13 @@ declare namespace App {
 	// interface Platform {}
 
 	interface PrivateEnv {
+		FAUNA_DOMAIN: string;
+		FAUNA_SECRET: string;
+		PLANETSCALE_DATABASE_URL: string;
 		SANITY_DATASET: string;
 		SANITY_PROJECT_ID: string;
 		SANITY_TOKEN: string;
 	}
 
 	// interface PublicEnv {}
-	// interface Session {}
-	// interface Stuff {}
 }
