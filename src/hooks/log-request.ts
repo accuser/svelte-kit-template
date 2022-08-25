@@ -1,9 +1,9 @@
 import type { Handle } from '@sveltejs/kit';
 import { dev } from '$app/env';
 
-type Interceptor = { (handle: Handle): Handle };
+type LogInterceptor = { (handle: Handle): Handle };
 
-const log: Interceptor = (handle) =>
+const log: LogInterceptor = (handle) =>
 	dev
 		? async ({ event, resolve }) => {
 				const {
@@ -46,6 +46,6 @@ const log: Interceptor = (handle) =>
 		  }
 		: handle;
 
-const log_request: Handle = log(async ({ event, resolve }) => resolve(event));
+const logRequest: Handle = log(async ({ event, resolve }) => resolve(event));
 
-export default log_request;
+export default logRequest;
