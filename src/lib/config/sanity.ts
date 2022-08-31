@@ -1,5 +1,5 @@
 import SanityClientConstructor from '@sanity/client';
-import { dev } from '$app/env';
+import { dev } from '$app/environment';
 import { SANITY_DATASET, SANITY_PROJECT_ID, SANITY_TOKEN } from '$env/static/private';
 
 const sanity = SanityClientConstructor({

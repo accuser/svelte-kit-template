@@ -1,5 +1,5 @@
 import type { Handle } from '@sveltejs/kit';
-import { dev } from '$app/env';
+import { dev } from '$app/environment';
 
 type LogInterceptor = { (handle: Handle): Handle };
 
