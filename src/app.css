@@ -13,3 +13,13 @@
 		font-family: 'Inter var', sans-serif;
 	}
 }
+
+@layer base {
+	main {
+		@apply container mx-auto px-4;
+	}
+
+	article {
+		@apply prose prose-sm md:prose-base lg:prose-lg xl:prose-xl 2xl:prose-2xl;
+	}
+}
