@@ -1,8 +1,31 @@
 {
   "name": "svelte-kit-template",
   "version": "0.3.0",
-  "private": true,
+  "description": "SvelteKit template turborepo",
+  "homepage": "https://github.com/accuser/svelte-kit-template/README.md",
+  "bugs": {
+    "url": "https://github.com/accuser/svelte-kit-template/issues"
+  },
   "license": "MIT",
+  "author": {
+    "name": "Matthew Gibbons",
+    "url": "https://github.com/accuser"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/accuser/svelte-kit-template.git"
+  },
+  "keywords": [
+    "faunadb",
+    "planetscale",
+    "portable text",
+    "sanity",
+    "svelte",
+    "sveltekit",
+    "tailwindcss",
+    "turborepo"
+  ],
+  "private": true,
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
